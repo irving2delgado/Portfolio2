@@ -235,6 +235,8 @@ body {
     opacity: .35;
     z-index: 10;
 }
+
+
 @media (max-width: 1180px) {
     .l-side-nav {
     display: none;
@@ -648,10 +650,11 @@ body {
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
-    justify-content: space-between;
+    justify-content: center;
     margin: 0;
     padding: 0;
     list-style: none;
+    margin-top: 50px;
 }
 .intro--options>a {
     max-width: 250px;
@@ -1538,3 +1541,20 @@ body {
     -webkit-transition-delay: .16s;
     transition-delay: .16s;
 }
+
+@media (max-width: 475px) {
+    .intro--options {
+        /* display: none;
+        visibility: hidden; */
+        margin-top: 75px;
+    }
+}
+
+@media (max-width: 475px) {
+    .intro--options {
+        display: none;
+        visibility: hidden;
+        
+    }
+}
+
